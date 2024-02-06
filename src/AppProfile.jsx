@@ -1,9 +1,14 @@
 import "./App.css";
+import Avatar from "./components/Avatar";
 import Profile from "./components/Profile";
 
 export default function AppProfile() {
   return (
     <>
+      <Avatar
+        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnva795U6Ke5YxLOwi3LE3o7gGynyfXmf6EXuoG9ay7l9MqOa-UA79-gqXu3rw12jWyzA&usqp=CAU"
+        isNew={true}
+      />
       <Profile
         image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnva795U6Ke5YxLOwi3LE3o7gGynyfXmf6EXuoG9ay7l9MqOa-UA79-gqXu3rw12jWyzA&usqp=CAU"
         name="푸바오"
