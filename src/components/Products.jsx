@@ -15,6 +15,7 @@ export default function Products() {
         res.json()
       );
     },
+    staleTime: 5000,
   });
   const handleChange = () => setChecked((prev) => !prev);
 
